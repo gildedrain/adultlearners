@@ -1,0 +1,38 @@
+/* OCC_GLOBAL.CSS OVERRIDES */
+#aside,aside,.aside{float:none;}
+#aside>*,aside>*,.aside>*{max-width:none;}
+#section.hasmenu,section.hasmenu,.section.hasmenu{float:none;width:auto;margin-bottom:1em;}
+/* EKTRON MENU OVERRIDES*/
+.menu{padding:0;margin:0 0 1.5em 0;width:auto;}
+.menu ul{margin:0 0 10px 0;list-style:none;padding:0;}
+.menu ul ul{margin-bottom:0;}
+.menu li{display:inline;margin:0;padding:0;}
+.menu li a{display:inline-block;width:auto;padding:.75em 10px .75em 10px;margin:0 10px 0 0;text-decoration:none;text-align:center;}
+.menu li:last-child a{font-weight:200;width:auto;background-color:#dd0000;background-repeat:repeat-x;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,.25)),to(rgba(255,255,255,0)));background-image:-moz-linear-gradient(top,rgba(255,255,255,.5),rgba(255,255,255,0));display:inline-block;padding:7px 10px 5px 10px;color:#fff;text-decoration:none;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;box-shadow:0 1px 3px rgba(0,0,0,.5);-moz-box-shadow:0 1px 3px rgba(0,0,0,0.5);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);text-shadow:0 -1px 1px rgba(0,0,0,0.25);border-bottom:1px solid rgba(0,0,0,0.25);position:relative;cursor:pointer;}
+/* tier 1 */
+.menu .ekflexmenu_submenu_btnlink:hover,.menu .ekflexmenu_link:hover,.menu .ekflexmenu_link_selected,.menu .ekflexmenu_link_selected:hover,.menu .ekflexmenu_button_selected{color:#FFF;background-color:#666;}
+/*HACK! adding a top border to menu li's seems to force IE7 into the box model */
+.ie7 .menu li{border-top:1px solid #cbe9ff;}
+/* default color scheme */
+.menu{color:#FFF;background-color:transparent; box-shadow:none;}
+.menu a{color:#FFF;background-color:transparent;}
+.menu ul {background-color:#356578; display:inline-block;}
+.menu li a:hover,.menu .current{color:#FFF;background-color:#356578;}
+/* TYPOGRAPHY */
+a{color:#336699;}
+a:hover {color:#1799fe;}
+#section a{text-decoration:underline;}
+#section .button {text-decoration:none;}
+.bg_banners{clear:none;}
+.highlight{background-color:#d2e5fa;}
+.labelmaker{display:inline-block;text-transform:uppercase;font-weight:200;background:#dd0000;padding:5px;font-size:.8em;color:#fff;letter-spacing:1px;margin-top:0;}
+h3{font-weight:200;font-size:2em;margin-bottom:1.5em;}
+h4{font-weight:200;font-size:1.75em;margin:.5em 0 .5em 0;}
+h5{margin-bottom:.2em; font-weight:600; font-size:1.1em; line-height:1.3;}
+.adult-learners-chart{margin-top:-225px;margin-bottom:-40px;}
+.beforeboxheader{font-size:1.25em;background-color:#5c7f97;}
+.beforebox{padding-top:1em;}
+#section li {margin-bottom:.5em;}
+.news-and-events p{margin-bottom:.5em; }
+.adultlearners-p-tweak {height:4em;}
+.font-handwriting {font-size:1.1em;}
