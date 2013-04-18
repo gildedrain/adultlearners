@@ -21,7 +21,7 @@
 /* TYPOGRAPHY */
 a{color:#336699;}
 a:hover {color:#1799fe;}
-#section a{text-decoration:underline;}
+#section a:link{text-decoration:underline;}
 #section .button {text-decoration:none;}
 .bg_banners{clear:none;}
 .highlight{background-color:#d2e5fa;}
